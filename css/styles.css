@@ -5,6 +5,7 @@ body {
     max-width: 800px;
     text-align: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 header {
@@ -18,9 +19,17 @@ h1, h2 {
     margin-bottom: 15px;
 }
 
-nav > li > a {
+li {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+a {
+    text-align: center;
     text-decoration: none;
     color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 main {
